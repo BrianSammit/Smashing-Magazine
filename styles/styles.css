@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+mbbbbbbbbbbbbbbbbbbbbbbbain{
+  display:flex;
+}
+
 .flex {
   display: flex;
 }
@@ -93,4 +97,18 @@
   color: orangered;
   position: relative;
   right: 10px;
+}
+
+/*
+============================
+          main
+============================
+*/
+
+.grinder {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 100px;
+  background-color: #505050;
+  border: #202020 1px solid;
 }
