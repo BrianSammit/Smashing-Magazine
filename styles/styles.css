@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.grey-max {
+  background-color: #202020;
+}
+
+.grey-medium {
+  background-color: #505050;
+}
+
+.grey-min {
+  background-color: #808080;
+}
+
+/*
+========================================
+    Header
+========================================
+*/
+
+.main-header {
+  width: auto;
+  height: 103px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 212px;
+  height: 71px;
+  border-radius: 11px;
+}
+
+.main-nav {
+  width: 677px;
+  height: 49px;
+  border-radius: 11px;
+}
+
+.main-nav-ul {
+  width: 100%;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-nav-ul a {
+  width: 114px;
+  height: 45px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 11px;
+}
+
+.main-nav-ul a:hover {
+  background-color: #202020;
+}
+
+.header-button {
+  width: 114px;
+  height: 45px;
+  border-radius: 11px;
+  color: white;
+  cursor: pointer;
+}
+
+.header-input {
+  width: 350px;
+  height: 56px;
+  border-radius: 11px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.header-input input {
+  width: 250px;
+  height: 30px;
+  border: none;
+}
+
+.fas {
+  font-size: 25px;
+  color: orangered;
+  position: relative;
+  right: 10px;
+}
