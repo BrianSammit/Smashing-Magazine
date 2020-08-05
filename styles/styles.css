@@ -19,6 +19,14 @@
   background-color: #808080;
 }
 
+.grey-1 {
+  background-color: #707070;
+}
+
+.grey-2 {
+  background-color: #606060;
+}
+
 /*
 ========================================
     Header
@@ -36,6 +44,7 @@
   width: 212px;
   height: 71px;
   border-radius: 11px;
+  cursor: pointer;
 }
 
 .main-nav {
@@ -58,6 +67,19 @@
   text-decoration: none;
   padding: 10px 15px;
   border-radius: 11px;
+}
+
+.user-main a {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.main-article-ul a {
+  text-decoration: none;
+  color: white;
+  margin-right: 70px;
 }
 
 .main-nav-ul a:hover {
@@ -126,10 +148,9 @@ h1 span {
 .main-article {
   display: block;
   width: 537px;
-  height: 420px;
+  height: 400px;
   padding: 204px 67.7px 142px;
-  border: 1px solid black;
-  background-color: red;
+  cursor: pointer;
 }
 
 .user-main {
@@ -147,18 +168,19 @@ h1 span {
 .user-main p {
   display: flex;
   margin-left: 20px;
-}
-
-.user-main a {
-  color: white;
-  font-size: 20px;
-  font-weight: 700;
-  text-decoration: none;
+  padding: 10px;
+  border-radius: 11px;
 }
 
 .wrote {
   font-size: 19px;
   color: white;
+  margin-left: 10px;
+}
+
+h2 {
+  padding: 5px 0 5px 15px;
+  border-radius: 11px;
 }
 
 .h2-1 {
@@ -182,9 +204,12 @@ h1 span {
   display: flex;
   list-style: none;
   margin-top: 50px;
+  padding: 10px;
+  border-radius: 11px;
 }
 
-.main-article a {
-  text-decoration: none;
+.fa-long-arrow-alt-right {
+  font-size: 30px;
   color: white;
+  margin-top: 100px;
 }
