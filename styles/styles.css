@@ -156,9 +156,18 @@ h1 span {
   background-color: white;
 }
 
+.span-1 {
+  position: absolute;
+  top: 150px;
+  right: 40px;
+  width: 200px;
+  height: 60px;
+  border-radius: 11px;
+}
+
 .main-article {
   display: block;
-  width: 537px;
+  width: 539px;
   height: 460px;
   padding: 204px 67.7px 142px;
   line-height: 45px;
