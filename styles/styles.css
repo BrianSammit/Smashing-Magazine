@@ -326,7 +326,7 @@ h3 {
   width: 800px;
   height: 651px;
   padding: 40px 30px;
-  margin-left: 20px;
+  margin: auto;
   align-items: center;
   border-radius: 11px;
 }
@@ -418,11 +418,10 @@ h3 {
   flex-direction: column;
   width: 100%;
   height: 1055px;
-  padding: 40px 30px;
+  padding: 40px 0;
   margin: auto;
   margin-top: 40px;
   align-items: center;
-  border-radius: 11px;
 }
 
 .pic3 button {
@@ -463,4 +462,99 @@ h3 {
   margin: 20px 0;
   text-align: center;
   line-height: 34px;
+}
+
+.writers-section {
+  margin-top: 40px;
+}
+
+.person-week {
+  margin: auto;
+  width: 1220px;
+  height: 320px;
+  display: flex;
+  border-radius: 11px;
+}
+
+.person-week img {
+  width: 280px;
+  height: 280px;
+}
+
+.info-writer {
+  margin: 15px;
+}
+
+.person-week h4 {
+  color: white;
+  font-size: 18px;
+  line-height: 37px;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 11px;
+}
+
+.person-week p {
+  line-height: 32px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  border-radius: 11px;
+}
+
+.writers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.writer-avatar img {
+  width: 71px;
+  height: 71px;
+  margin: 10px 20px 0 0;
+}
+
+.writers article {
+  padding: 50px 15px;
+  display: flex;
+  width: 610px;
+  height: 252px;
+}
+
+.header-w {
+  font-size: 19px;
+  font-weight: 900;
+  color: white;
+  padding: 5px;
+  border-radius: 11px;
+  font-family: "Kalam", cursive;
+}
+
+.header-a {
+  text-decoration: none;
+  color: white;
+  font-size: 31px;
+  padding: 5px;
+  border-radius: 11px;
+}
+
+.info-writer-1 {
+  margin-top: 10px;
+}
+
+.info-writer-1 h1 {
+  margin: 10px 0;
+}
+
+.info-writer-1 p {
+  padding: 5px;
+  border-radius: 11px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.info-writer-1 header {
+  padding-bottom: 20px;
 }
