@@ -273,6 +273,7 @@ h2 {
   height: 500px;
   padding: 22px;
   margin-top: 22px;
+  cursor: pointer;
 }
 
 .section-2:hover {
@@ -323,7 +324,7 @@ h3 {
   display: flex;
   flex-direction: column;
   width: 800px;
-  height: 500px;
+  height: 651px;
   padding: 40px 30px;
   margin-left: 20px;
   align-items: center;
@@ -333,6 +334,8 @@ h3 {
 .cat img {
   width: 222px;
   height: 222px;
+  cursor: pointer;
+  margin: 40px 0;
 }
 
 .content {
@@ -350,20 +353,48 @@ h3 {
 }
 
 .content p {
+  line-height: 32px;
+  text-align: center;
   color: white;
-  font-size: 20px;
+  font-size: 20.3px;
+  cursor: pointer;
 }
 
 .content button {
+  font-size: 20px;
   font-family: "Kalam", cursive;
   margin: 35px 0 20px;
   border-radius: 11px;
   color: white;
   width: 214px;
   height: 53px;
+  cursor: pointer;
 }
 
 .sign-in {
   font-family: "Kalam", cursive;
   color: white;
+}
+
+.pic2 {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 651px;
+  padding: 40px 30px;
+  margin: auto;
+  margin-top: 40px;
+  align-items: center;
+  border-radius: 11px;
+}
+
+.pic2 button {
+  font-size: 20px;
+  font-family: "Kalam", cursive;
+  margin: 35px 0 20px;
+  border-radius: 11px;
+  color: white;
+  width: 305px;
+  height: 53px;
+  cursor: pointer;
 }
