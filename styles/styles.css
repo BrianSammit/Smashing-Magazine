@@ -58,14 +58,16 @@
   list-style: none;
   justify-content: space-around;
   align-items: center;
+  font-size: 20px;
+  font-family: "Kalam", cursive;
 }
 
 .main-nav-ul a {
   width: 114px;
-  height: 45px;
+  height: 35px;
   color: white;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 7px 15px;
   border-radius: 11px;
 }
 
@@ -92,6 +94,12 @@
   border-radius: 11px;
   color: white;
   cursor: pointer;
+  font-size: 20px;
+  font-family: "Kalam", cursive;
+}
+
+.header-button:hover {
+  background-color: #101010;
 }
 
 .header-input {
@@ -107,6 +115,8 @@
   width: 250px;
   height: 30px;
   border: none;
+  font-family: "Kalam", cursive;
+  font-size: 20px;
 }
 
 .fas {
@@ -131,9 +141,10 @@ h1 {
   display: block;
   position: absolute;
   justify-content: center;
-  margin-left: 500px;
+  margin-left: 480px;
   margin-top: 50px;
   text-align: center;
+  font-family: "Kalam", cursive;
 }
 
 h1 span {
@@ -148,9 +159,11 @@ h1 span {
 .main-article {
   display: block;
   width: 537px;
-  height: 400px;
+  height: 460px;
   padding: 204px 67.7px 142px;
+  line-height: 45px;
   cursor: pointer;
+  font-family: "Kalam", cursive;
 }
 
 .user-main {
