@@ -103,6 +103,20 @@ h3 a {
   color: white;
 }
 
+.pic3 a {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.load-more a {
+  margin: auto;
+  padding-bottom: 5px;
+  border-bottom: 5px solid black;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .main-nav-ul a:hover {
   background-color: #202020;
 }
@@ -404,15 +418,6 @@ h3 {
   margin: 80px;
 }
 
-.load-more a {
-  margin: auto;
-  padding-bottom: 5px;
-  border-bottom: 5px solid black;
-  text-decoration: none;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .pic3 {
   display: flex;
   flex-direction: column;
@@ -450,11 +455,6 @@ h3 {
 .pic3 .content {
   width: 921px;
   margin-top: 60px;
-}
-
-.pic3 a {
-  margin-top: 20px;
-  text-align: center;
 }
 
 .pic3 p {
