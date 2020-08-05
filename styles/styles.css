@@ -66,6 +66,12 @@ body {
   font-family: "Kalam", cursive;
 }
 
+h3 a {
+  color: white;
+  font-size: 30px;
+  font-family: "Kalam", cursive;
+}
+
 .main-nav-ul a {
   width: 114px;
   height: 35px;
@@ -86,6 +92,15 @@ body {
   text-decoration: none;
   color: white;
   margin-right: 70px;
+}
+
+.author a {
+  color: #000;
+  font-weight: 800;
+}
+
+.content a {
+  color: white;
 }
 
 .main-nav-ul a:hover {
@@ -246,62 +261,109 @@ h2 {
 -------------------------------------
 
 */
+
 .blog {
   display: flex;
   flex-wrap: wrap;
   background-color: #d6d7ce;
 }
+
 .section-2 {
-  width:400px;
-  height:500px;
-  padding:20px;
+  width: 405px;
+  height: 500px;
+  padding: 22px;
   margin-top: 22px;
 }
-.section-2:hover{
-  background-color:#606060;
+
+.section-2:hover {
+  background-color: #606060;
+}
+
+.section-2 p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 5px;
+  border-radius: 11px;
+  margin-top: 10px;
 }
 
 .days {
   font-size: 15px;
   color: #202020;
+  border-radius: 11px;
+  padding: 5px;
 }
 
 h3 {
-  padding:  10px 0px 30px;
-}
-
-h3 a {
-  color: #101010;
-  font-size: 30px;
-  font-family: "Kalam", cursive;
+  padding: 10px 5px 30px;
+  border-radius: 11px;
+  margin: 10px 0;
 }
 
 .author {
+  border-radius: 11px;
+  padding: 5px;
   font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-}
-
-.author a {
-  color: #000000;
-}
-
-p {
-  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 20px 0px;
+}
+
+.section-2 .fas {
+  position: relative;
+  left: -22px;
+  bottom: 53px;
+  color: rgb(0, 0, 0);
+  padding: 30px;
+}
+
+.section-2 .fas:hover {
+  background-color: white;
 }
 
 .pic1 {
-  display:flex;
-  justify-items: center;
+  display: flex;
   flex-direction: column;
-  width:800px;
-  height:500px;
-  background-color: red;
-  padding: 40px;
+  width: 800px;
+  height: 500px;
+  padding: 40px 30px;
+  margin-left: 20px;
+  align-items: center;
+  border-radius: 11px;
 }
 
-.cat img{
-  width: 242px;
-  height:242px;
+.cat img {
+  width: 222px;
+  height: 222px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+}
+
+.content-a-1 {
+  font-size: 43px;
+  font-weight: 900;
+  color: white;
+  font-family: "Kalam", cursive;
+}
+
+.content p {
+  color: white;
+  font-size: 20px;
+}
+
+.content button {
+  font-family: "Kalam", cursive;
+  margin: 35px 0 20px;
+  border-radius: 11px;
+  color: white;
+  width: 214px;
+  height: 53px;
+}
+
+.sign-in {
+  font-family: "Kalam", cursive;
+  color: white;
 }
