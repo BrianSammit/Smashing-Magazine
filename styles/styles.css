@@ -140,7 +140,7 @@ h3 a {
 
 .fas {
   font-size: 25px;
-  color: orangered;
+  color: black;
   position: relative;
   right: 10px;
 }
@@ -397,4 +397,70 @@ h3 {
   width: 305px;
   height: 53px;
   cursor: pointer;
+}
+
+.load-more {
+  display: flex;
+  margin: 80px;
+}
+
+.load-more a {
+  margin: auto;
+  padding-bottom: 5px;
+  border-bottom: 5px solid black;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pic3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1055px;
+  padding: 40px 30px;
+  margin: auto;
+  margin-top: 40px;
+  align-items: center;
+  border-radius: 11px;
+}
+
+.pic3 button {
+  font-size: 20px;
+  font-family: "Kalam", cursive;
+  margin: 35px 0 20px;
+  border-radius: 11px;
+  color: white;
+  width: 317px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.content span {
+  line-height: 32px;
+  text-align: center;
+  color: white;
+  font-size: 20.3px;
+}
+
+.pic3 img {
+  width: 620px;
+  height: 517px;
+}
+
+.pic3 .content {
+  width: 921px;
+  margin-top: 60px;
+}
+
+.pic3 a {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pic3 p {
+  font-size: 22px;
+  margin: 20px 0;
+  text-align: center;
+  line-height: 34px;
 }
