@@ -9,7 +9,7 @@ The project consist in create a grayscale heat map of the website Amashin Magazi
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML),
 - [CSS](https://www.w3schools.com/css/),
 - [Fontawesome](https://fontawesome.com/),
-- [googlefonts](https://www.google.com/),
+- [googlefonts](https://fonts.google.com/),
 
 ## Live Demo
 
