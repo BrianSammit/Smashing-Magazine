@@ -595,4 +595,10 @@ h3 {
   position: absolute;
   right: 80px;
   bottom: 50px;
+  cursor: pointer;
+}
+
+.section-3 {
+  width: 509px;
+  height: 384px;
 }
