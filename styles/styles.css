@@ -117,6 +117,18 @@ h3 a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.footer-topics a {
+  font-weight: 500;
+  font-size: 23px;
+  color: white;
+}
+
+.footer-links a {
+  font-size: 16px;
+  color: white;
+  margin: 10px;
+}
+
 .main-nav-ul a:hover {
   background-color: #202020;
 }
@@ -166,7 +178,6 @@ h3 a {
 */
 
 .first-container {
-  display: flex;
   flex-wrap: wrap;
 }
 
@@ -209,7 +220,6 @@ h1 span {
 }
 
 .user-main {
-  display: flex;
   align-items: center;
   width: 340px;
   height: 85px;
@@ -277,7 +287,6 @@ h2 {
 */
 
 .blog {
-  display: flex;
   flex-wrap: wrap;
   background-color: #d6d7ce;
 }
@@ -335,7 +344,6 @@ h3 {
 }
 
 .pic1 {
-  display: flex;
   flex-direction: column;
   width: 800px;
   height: 651px;
@@ -343,6 +351,10 @@ h3 {
   margin: auto;
   align-items: center;
   border-radius: 11px;
+}
+
+.sec-1 {
+  height: 651px;
 }
 
 .cat img {
@@ -353,7 +365,6 @@ h3 {
 }
 
 .content {
-  display: flex;
   flex-direction: column;
   align-items: center;
   width: 600px;
@@ -391,7 +402,6 @@ h3 {
 }
 
 .pic2 {
-  display: flex;
   flex-direction: column;
   width: 1200px;
   height: 651px;
@@ -419,7 +429,6 @@ h3 {
 }
 
 .pic3 {
-  display: flex;
   flex-direction: column;
   width: 100%;
   height: 1055px;
@@ -504,7 +513,6 @@ h3 {
 }
 
 .writers {
-  display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -518,7 +526,6 @@ h3 {
 
 .writers article {
   padding: 50px 15px;
-  display: flex;
   width: 610px;
   height: 252px;
 }
@@ -561,7 +568,6 @@ h3 {
 
 .pic4 {
   position: relative;
-  display: flex;
   width: 100%;
   height: 322px;
   padding: 40px 0;
@@ -598,7 +604,179 @@ h3 {
   cursor: pointer;
 }
 
+.section-3-articles {
+  width: 1254px;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-around;
+}
+
 .section-3 {
   width: 509px;
   height: 384px;
+  padding: 38px;
+  margin: 30px 0;
+  border-radius: 11px;
+}
+
+.section-3 .days {
+  color: hsl(0, 0%, 13%);
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.section-3 h3 {
+  font-family: "Kalam", cursive;
+  font-size: 43px;
+  padding: 5px;
+}
+
+.section-3 p {
+  font-size: 20px;
+  line-height: 32px;
+  margin: 32px 0;
+  padding: 5px;
+  border-radius: 11px;
+}
+
+.section-3 button {
+  font-size: 20px;
+  font-family: "Kalam", cursive;
+  border-radius: 11px;
+  color: white;
+  width: 317px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.section-3-1 {
+  flex-direction: column;
+  width: 509px;
+  height: 796px;
+  padding: 38px;
+  margin: 30px 0;
+  border-radius: 11px;
+}
+
+.section-3-1 img {
+  align-self: center;
+  width: 280px;
+  height: 280px;
+}
+
+.section-3-1 h3 {
+  padding: 10px;
+}
+
+.section-3-1 p {
+  font-size: 20px;
+  line-height: 32px;
+  margin: 32px 0;
+  padding: 5px;
+  border-radius: 11px;
+}
+
+.input-main {
+  width: 509px;
+  height: 72px;
+}
+
+.input-1 {
+  width: 323px;
+  height: 41px;
+  font-size: 23px;
+  font-family: "Kalam", cursive;
+  border-radius: 11px 0 0 11px;
+  padding: 10px 10px;
+  border: none;
+}
+
+.input-2 {
+  width: 186px;
+  height: 61px;
+  color: white;
+  font-family: "Kalam", cursive;
+  font-size: 23px;
+  cursor: pointer;
+  border-radius: 0 11px 11px 0;
+  border: none;
+}
+
+.section-3-1 span {
+  width: 329px;
+  height: 54px;
+  padding: 9px 18px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.sec-3 {
+  height: 796px;
+}
+
+footer {
+  flex-direction: column;
+}
+
+.footer-topics {
+  margin: auto;
+  flex-direction: column;
+  width: 1200px;
+  height: 332px;
+  text-align: center;
+}
+
+.footer-topics h4 {
+  margin: 50px 0;
+  font-size: 14px;
+  color: white;
+}
+
+.footer-topics ul {
+  font-family: "Kalam", cursive;
+  line-height: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-topics li {
+  margin: 20px;
+}
+
+.footer-topics a:hover {
+  font-size: 23px;
+  color: rgb(0, 0, 0);
+}
+
+.footer-links {
+  width: 1284px;
+  height: 220px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  width: 483px;
+  height: 200px;
+  color: white;
+  line-height: 26px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.footer-links img {
+  width: 200px;
+  height: 200px;
+  padding: 0 50px;
+}
+
+.footer-links ul {
+  list-style: none;
+  text-align: center;
+}
+
+.uls {
+  margin-top: 30px;
 }
