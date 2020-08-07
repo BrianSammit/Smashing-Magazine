@@ -13,7 +13,7 @@ The project consist in create a grayscale heat map of the website smashing Magaz
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/BrianSammit/Smashing-Magazine/a4f4fbebc6d61f343f92dd3fe9fd13a018267c77/index.html)
+[Live Demo Link](https://raw.githack.com/BrianSammit/Smashing-Magazine/master/index.html)
 
 ## Authors
 
