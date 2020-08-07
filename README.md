@@ -1,6 +1,6 @@
 # Smashing-Magazine
 
-The project consist in create a grayscale heat map of the website Amashin Magazine that indicates which elements have the greatest weight in the visual hierarchy..
+The project consist in create a grayscale heat map of the website smashing Magazine that indicates which elements have the greatest weight in the visual hierarchy..
 
 ![screenshot](./screenshot.png)
 
@@ -27,9 +27,9 @@ Linkedin: https://www.linkedin.com/in/brian-sammit-cruz-rodriguez-5877551a8/
 
 👤 Ssegawa Alvin Louis K
 
-Github: https://github.com/ositaadimma
+Github: https://github.com/alvinlouis29
 
-Twitter:@alvinlouis29 https://github.com/alvinlouis29
+Twitter: https://twitter.com/louisssegawa
 
 ## 🤝 Contributing
 
@@ -50,4 +50,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-NO licese: This project is free for anyone to use.
+NO license: This project is free for anyone to use.
