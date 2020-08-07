@@ -727,6 +727,7 @@ footer {
   text-align: center;
 }
 
+
 .footer-topics h4 {
   margin: 50px 0;
   font-size: 14px;
@@ -738,6 +739,7 @@ footer {
   line-height: 18px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer-topics li {
