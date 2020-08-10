@@ -781,3 +781,7 @@ footer {
 .uls {
   margin-top: 30px;
 }
+
+.uls ul {
+  justify-content: center;
+}
