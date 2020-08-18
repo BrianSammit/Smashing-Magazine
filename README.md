@@ -1,6 +1,6 @@
 # Smashing-Magazine
 
-The project consist in create a grayscale heat map of the website smashing Magazine that indicates which elements have the greatest weight in the visual hierarchy..
+The project consist in create a grayscale heat map of the website smashing Magazine that indicates which elements have the greatest weight in the visual hierarchy.
 
 ![screenshot](./screenshot.png)
 
